@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MVC_Sample1.Models.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>    
+    <title style="color:blue" > List of products</title>
+</head>
+<body>
+    @foreach (var prod in Model)
+    {
+        <h2 style="background-color:gainsboro; font:15px "> @prod.Name  </h2>
+        if (@prod.Quantity > 10)
+        {
+            <h5>Quantity of trucs with @prod.Name  = @prod.Quantity  by price @prod.Price</h5>
+        }
+        @: Try my best product!
+
+        <h4 style="color:brown; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">So my @prod.Name are @prod.Description  !!!</h4>
+    }
+
+</body>
+
+</html>
+
