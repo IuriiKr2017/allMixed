@@ -10,4 +10,4 @@ function GetAge(var n)
 	return 	n ;
 }
 
-Test sample 222
+1
