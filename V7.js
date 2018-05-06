@@ -10,7 +10,6 @@ function GetAge(var n)
 	return 	n ;
 }
 
-1
-2
-3
+1111
+
 
