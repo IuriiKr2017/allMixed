@@ -10,5 +10,4 @@ function GetAge(var n)
 	return 	n ;
 }
 
-
-11111
+Test sample
