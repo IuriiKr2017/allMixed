@@ -1,4 +1,6 @@
 Just some js code!
 
-function		
-1234444
+function GetName(string n)
+{
+	return 	"Hi" + n ;
+}
