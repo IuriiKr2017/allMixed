@@ -1,1 +1,1 @@
-del all
+Some case fixes
